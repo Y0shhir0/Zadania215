@@ -33,10 +33,6 @@ public class Main {
         System.out.println("2 - Нет");
         command = scanner.nextInt();
 
-        //чуть чуть изменил условия и если значения пустые то не выводим
-        // и double привел к Double
-
-
         if (command == 1) {
             user.moneyEUR = 0.0;
         }
